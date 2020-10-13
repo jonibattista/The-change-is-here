@@ -6,18 +6,19 @@ body{
 }
 h1{
     font-family: 'Open Sans', sans-serif;
-
+    font-weight: bold;
     font-size: 50px;
 
 }
-#p1{
+.p1{
     font-family: 'Open Sans', sans-serif; 
     font-size:22px;
+    font-weight: bold;
     width: 900px;
 
 }
 
-#p2{
+.p2{
     float: right;
     font-size:13px;
     font-family: 'Open Sans', sans-serif;
@@ -25,7 +26,7 @@ h1{
     text-align: right;
 
 }
-#p3{
+.p3{
     width: 200px;
     text-align: right;
     float:right;
@@ -33,14 +34,14 @@ h1{
     font-size: 18px;
     padding: 10px;
 }
-#p4{
+.p4{
 
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     margin:0;
     
 }
-#p5{
+.p5{
     width: 180px;
     text-align: center;
     float: left;
@@ -53,11 +54,8 @@ p{
     font-family: 'Open Sans', sans-serif;
     font-size:18px;
     color:#000;
-
-
-
 }
-#primeraimg{
+.primeraimg{
     margin-left: auto;
     margin-right: auto;
 
@@ -70,6 +68,6 @@ a:hover{
     color:gainsboro;
     background-color: transparent;
 }
-#caja{
+.caja{
     width: 550px;
 }
